@@ -24,12 +24,12 @@ function deleteCard(event) {
 	outputText.removeChild(currentCard);
 }
 
-function enterKeyPress(keyPress){
-	if (keyPress.which === 13){
-		createCard();
-		inputText.value = "";
-	}
-}
+// function enterKeyPress(keyPress){
+// 	if (keyPress.which === 13){
+// 		createCard();
+// 		inputText.value = "";
+// 	}
+// }
 
 createText.addEventListener("click", createCard);
-document.addEventListener("keyPress", enterKeyPress);
+// document.addEventListener("keyPress", enterKeyPress);

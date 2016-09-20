@@ -7,9 +7,13 @@ h1 {
 	font-family: "Century Gothic", sans-serif;
 }
 
+#output {
+	font-family: "Century Gothic", sans-serif
+}
+
 body {
 	background-color: lightblue;
-	margin: 50px 0;
+	margin: 0 333px;
 }
 
 #input {
